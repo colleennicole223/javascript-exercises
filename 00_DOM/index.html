@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>DOM Manipulation and Effects</title>
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        <h1>DOM Manipulation Practice</h1>
+        <div id="container"></div>
+
+        <!--
+            Specify function attributes directly in the HTML element
+            which can clutter the document and unable to run multiple
+            functions in response, is not ideal
+        -->
+        <button onclick="alert('Hello World')">Click me!</button>
+
+        <!--
+            Set up properties in the DOM nodes 
+        -->
+        <button id="btn">No, Click Me!</button>
+
+        <!--
+            Set up an Event Listener on the DOM nodes in JavaScript
+        -->
+        <button id="btn2">CLICK ME!!</button>
+
+        <div id="buttonContainer">
+            <button id="1">Button 1</button>
+            <button id="2">Button 2</button>
+            <button id="3">Button 3</button>
+        </div>
+
+    </body>
+</html>
